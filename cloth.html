@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeShow Room | Clothes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav >
+        <ul>
+            <li  > 
+             <img width="150" src="1.png" alt="" class="im">
+             </li>
+
+             <div id="onMobile">
+                <li onclick="closeNav()" id="closeNav" class="displayMenuClose" ><ion-icon name="close-outline"></ion-icon></li>
+                <li><a href="index.html#home">Home <hr></a></li>
+                <li><a href="index.html#shoes">Shoes <hr>
+                </a></li>
+                <li><a href="cloth.html" style="filter: drop-shadow(0 0 10px #0081a7);
+                    border-bottom: 3px solid #0081a7;">Clothes <hr></a></li>
+                 <li><a href="#ads">Advertisment</a></li> 
+                 <li onclick="showSetting()" style="color: #fff;"><ion-icon name="settings-outline"></ion-icon></li>
+            </div>
+        <div>
+            <li id="onPc" ><a href="index.html#home">Home <hr></a></li>
+            <li id="onPc"><a href="index.html#shoes">Shoes <hr>
+            </a></li>
+            <li id="onPc"><a href="cloth.html" style="filter: drop-shadow(0 0 10px #0081a7);
+                border-bottom: 3px solid #0081a7;">Clothes <hr></a></li>
+            <li id="onPc" class="remove"><a href="#ads">Advertisment</a></li>
+            <li onclick="showSetting()" style="color: #fff;"><ion-icon name="settings-outline"></ion-icon></li>
+            <li onclick="showNav()" id="showNav" class="displayMenu"><ion-icon name="layers-outline" ></ion-icon></li>
+        </div>
+       
+       
+    
+        </ul>
+        
+    <script>
+       function showNav(){
+      document.getElementById("onMobile").style.display = "flex"
+    document.getElementById("showNav").style.display = "none"
+       }
+       function closeNav(){
+        document.getElementById("onMobile").style.display = "none"
+        document.getElementById("showNav").style.display = "flex"
+    }
+    </script>
+    </nav>
+    <br><br><br><br><br>
+    <li>
+        <div class="setting" id="setting">
+            <div class="setting1">
+                <ion-icon class="icon" name="close-outline" style="font-size: 40px; float:right; margin-left: 170px; margin-top: -30px" onclick="removeSetting()"></ion-icon>
+                <h1 style="text-align: center;">Setting </h1>
+                <button id="back" onclick="ChangeBack()"> Light mode <ion-icon name="radio-button-off-outline"></ion-icon></button>
+                
+            </div>
+        </div>
+    </li>
+     </header>
+<body>
+ 
+ <br><br><br><br><br><br><br><br>
+ <!--Main body-->   
+<main>
+    <article id="cloth">
+        
+    <br><br><br> 
+    <h1>Best Cloth collections</h1>
+    <br>
+      
+    <img src="28.png"  alt="">
+    <img src="29.png"  alt="">
+    <img src="30.png"   alt="">
+</article>
+<section id="clo">
+    <br><br><br><br><br>
+    <h1>Clothes</h1>
+    <br>
+    <div class="container">
+    <div class="shoe">
+        <img src="28.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="29.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="30.png" width="350" alt="">
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="shoe">
+        <img src="31.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="32.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="33.png" width="350" alt="">
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="shoe">
+        <img src="34.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="35.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="36.png" width="350" alt="">
+    </div>
+</div> <br>
+<div class="container" id="ads" style="flex-direction: column; background-color: #fff;  ">
+    
+    <h1 style="font-family:  san-serif; color: rgb(82, 82, 82);">Advertisment</h1>
+   
+<marquee behavior="speed=100" direction="left" style="margin-top: -130px">
+    <img src="20.png" width="300" alt="">
+    <img src="21.png" width="300" alt="">
+    <img src="22.png" width="300" alt="">
+    <img src="23.png" width="300" alt="">
+    <img src="24.png" width="300" alt="">
+    <img src="25.png" width="300" alt="">
+    <img src="26.png" width="300"  alt="">
+    <img src="27.png" width="300" alt="">
+    
+</marquee>
+</div>
+<br>
+<div class="container">
+    <div class="shoe">
+        <img src="37.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="38.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="39.png" width="350" alt="">
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="shoe">
+        <img src="40.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="41.png" width="350"  alt="">
+    </div>
+    <div class="shoe">
+        <img src="42.png" width="350"   alt="">
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="shoe">
+        <img src="43.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="44.png" width="350" alt="">
+    </div>
+    <div class="shoe">
+        <img src="45.png" width="350" alt="">
+    </div>
+</div>
+<br>
+
+</section>
+</main>
+<footer>
+    <div>
+    <img width="150" src="1.png" alt="" class="im">
+
+    <p>&copy; 2024 ShoeShow Room. All rights reserved.</p>
+</div>
+        <div>
+            <h1>Links</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#ads">Advertisment</a></li>
+            </ul>
+        </div>
+    <div >
+        <h1>Social Media</h1>
+        <ul style="flex-direction: row; display: flex; font-size:26px; justify-content:space-around; gap: 20px">
+            <li><ion-icon name="logo-pinterest"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+            <li><ion-icon name="logo-tiktok"></ion-icon></li>
+            <li><ion-icon name="logo-youtube"></ion-icon></li>
+            <li><ion-icon name="logo-twitter"></ion-icon></li>
+        </ul>
+    </div>
+    <p>Made by Leul Ayfokru</p>
+</footer>
+ 
+</body>
+<script>
+
+    function removeSetting(){
+        document.querySelector('#setting').style.display = 'none';
+    }
+
+    function showSetting(){
+        document.querySelector('#setting').style.display = 'block';
+         
+    }
+
+    let isLightMode = false;
+  
+    function ChangeBack() {
+      if (!isLightMode) {
+        document.body.classList.add('light-mode');
+        document.getElementById('back').innerHTML = 'Dark mode <ion-icon name="radio-button-on-outline"></ion-icon>';
+        isLightMode = true;
+      } else {
+        document.body.classList.remove('light-mode');
+        document.getElementById('back').innerHTML = 'Light mode <ion-icon name="radio-button-off-outline"></ion-icon>';
+        isLightMode = false;
+      }
+    }
+  </script>
+<script>
+    // Get all links with a href attribute that starts with "#"
+const links = document.querySelectorAll('a[href^="#"]');
+
+// Add an event listener to each link
+links.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    // Prevent the default link behavior
+    e.preventDefault();
+
+    // Get the href attribute of the link
+    const href = link.getAttribute('href');
+
+    // Get the element that the link is pointing to
+    const target = document.querySelector(href);
+
+    // If the target element exists, scroll to it smoothly
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  });
+});
+
+ 
+
+// Get all links in the nav bar and footer
+const navLinks = document.querySelectorAll('nav ul li a, footer ul li a');
+
+// Add an event listener to each link
+navLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    // Get the text content of the link
+    const linkText = link.textContent.trim();
+
+    // Update the title of the page
+    document.title = `ShoeShow Room | ${linkText}`;
+  });
+});
+
+// Add an event listener to each link
+navLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    // Remove the active class from all links
+    navLinks.forEach((otherLink) => {
+      otherLink.classList.remove('active');
+    });
+
+    // Add the active class to the clicked link
+    link.classList.add('active');
+  });
+});
+
+
+</script>
+ 
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
